@@ -20,6 +20,8 @@ class Utils():
             settings.ERROR = data["ERROR"]
             settings.MIN = data["MIN"]
             settings.MAX = data["MAX"]
+            if settings.MIN >= settings.MAX:
+                raise RuntimeError("Максимум должен быть строго больше минимума!")
             Utils.check_directory()
     
     @staticmethod
