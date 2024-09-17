@@ -36,7 +36,7 @@ class AvitoScraper(Scraper):
         scraped_items: List[Dict[str, str]] = list()
         
         for l in links:
-            sleep(randint(1, 3))
+            sleep(randint(settings.MIN, settings.MAX))
             try:
                 scraped_items.append(self.scrape_item(l))
             except:

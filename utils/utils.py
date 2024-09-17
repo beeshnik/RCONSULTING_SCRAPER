@@ -18,6 +18,8 @@ class Utils():
             settings.EXCEL_FILE_NAME = data["EXCEL_FILE_NAME"]
             settings.URL = data["URL"]
             settings.ERROR = data["ERROR"]
+            settings.MIN = data["MIN"]
+            settings.MAX = data["MAX"]
             Utils.check_directory()
     
     @staticmethod

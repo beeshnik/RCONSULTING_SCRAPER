@@ -3,6 +3,8 @@
     "URL": "https://www.avito.ru/perm/kommercheskaya_nedvizhimost",
     "ERROR": "Error.txt",
     "AUTHOR": "yunas",
-    "VERSION": "1.1.1"
+    "VERSION": "1.1.1",
+    "MIN": 5,
+    "MAX": 7
 }
 

@@ -1,0 +1,6 @@
+selenium
+selenium_stealth
+pandas
+pillow
+openpyxl
+git+https://github.com/SergeyPirogov/webdriver_manager@master
