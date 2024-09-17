@@ -10,20 +10,6 @@
 Там будет указана разрядность, она должна совпадать с разрядностью интерпретатора <br/>
 Скачайте и установите интерпретатор <br/>
 
-## Зависимости
-
-Далее откройте командную строку (клавиши: <Win + R>) <br/>
-Добавьте необходимые зависимости: <br/>
--- selenium <br/>
--- selenium_stealth <br/>
--- git+https://github.com/SergeyPirogov/webdriver_manager@master <br/>
--- pandas <br/>
--- pillow <br/>
--- openpyx1 <br/>
-
-
-Для этого используйте команду: pip install <название зависимости> <br/>
-
 ### При проблемах с webdriver:
 https://stackoverflow.com/questions/63421086/modulenotfounderror-no-module-named-webdriver-manager-error-even-after-instal <br/>
 
@@ -35,6 +21,8 @@ https://stackoverflow.com/questions/63421086/modulenotfounderror-no-module-named
 -- ERROR: Название файла для вывода ссылок на необработанные страницы (нежелательно менять) <br/>
 -- AUTHOR: Автор программы <br/>
 -- VERSION: Версия программы <br/>
+-- MIN: Минимальное время задержки <br/>
+-- MAX: Максимальное время задержки <br/>
 
 ## Результаты
 Смотрите результаты в папке с названием формата: ГГГГ_ММ_ДД_ЧАС_МИНУТА_СЕКУНДА  <br/>
