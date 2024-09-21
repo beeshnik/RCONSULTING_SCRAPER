@@ -1,9 +1,9 @@
 {
-    "EXCEL_FILE_NAME": "nedvizhka.xlsx",
+    "EXCEL_FILE_NAME": "nedvizhka",
     "URL": "https://www.avito.ru/perm/kommercheskaya_nedvizhimost",
     "ERROR": "Error.txt",
-    "AUTHOR": "yunas",
-    "VERSION": "1.1.1",
+    "DIRECTORY": "C:\\Users\\misha\\Desktop\\",
+    "VERSION": "1.1.2",
     "MIN": 5,
     "MAX": 8
 }

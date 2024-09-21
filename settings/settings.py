@@ -1,31 +1,30 @@
 class settings():
     """Класс с настройками
     """
-    
-    EXCEL_FILE_NAME: str # Имя для EXCEL-файла для AVITO
-    URL: str # Базовый URL для парсинга
-    DIRECTORY: str # Директория для сохранения файлов
-    ERROR: str # Имя файла для вывода ссылок на необработанные объявления
-    MIN: int # Минимальное значение задержки
-    MAX: int # Максимальное значение задержки
-    
-    AVITO_PAGE_MARKER: str = "p" # Параметр запроса для смены страницы
-    
-    CIAN_EXCEL_FILE: str = "offers.xlsx" # Название EXCEL, скачанного с ЦИАН
-    CIAN_EXCEL_LINK_HEADER: str = "Ссылка на объявление" # Название столбца со ссылками
-    CIAN_ID_HEADER: str = "ID  объявления" # Название столбца с ID
-    CIAN_LAST_UPDATE_COL_TITLE: str = "Обновлено" # Добавляемый столбец с датой
-    
+
+    EXCEL_FILE_NAME: str  # Имя для EXCEL-файла для AVITO
+    URL: str  # Базовый URL для парсинга
+    DIRECTORY: str  # Директория для сохранения файлов
+    ERROR: str  # Имя файла для вывода ссылок на необработанные объявления
+    MIN: int  # Минимальное значение задержки
+    MAX: int  # Максимальное значение задержки
+
+    AVITO_PAGE_MARKER: str = "p"  # Параметр запроса для смены страницы
+
+    CIAN_EXCEL_FILE: str = "offers.xlsx"  # Название EXCEL, скачанного с ЦИАН
+    CIAN_EXCEL_LINK_HEADER: str = "Ссылка на объявление"  # Название столбца со ссылками
+    CIAN_ID_HEADER: str = "ID  объявления"  # Название столбца с ID
+    CIAN_LAST_UPDATE_COL_TITLE: str = "Обновлено"  # Добавляемый столбец с датой
+
     # XPATH Для ЦИАНА
     CIAN_IMAGE_XPATH = ".//div[@data-name='OfferGallery']//ul[@class='a10a3f92e9--container--Pf0cj']//img"
     CIAN_DATE_XPATH = ".//div[@data-testid='metadata-added-date']/span"
     CIAN_DOWNLOAD_EXCEL_BTN_XPATH = ".//div[@data-name='ButtonPrintExcelGroup']/button[position()=1]"
     CIAN_PDF_LINK_XPATH = ".//div[@data-name='Toolbar']//a"
 
-    
     # XPATH Для парсинга пагинации с AVITO
     AVITO_NUM_PAGE_XPATH = ".//ul[@data-marker='pagination-button']/li[position()=last()-1]//span"
-    
+
     # XPATH Для объявлений с AVITO
     AVITO_BTN_XPATH = ".//button[@data-marker='item-phone-button/card']"
     AVITO_MAIN_PIC_XPATH = ".//div[@data-marker='image-frame/image-wrapper']/img"
